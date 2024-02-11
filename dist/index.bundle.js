@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("\n\n//# sourceURL=webpack://websitepage/./src/index.js?");
+eval("const navInit = (() => {\n    const navBtns = document.querySelectorAll('.navbtn');\n    navBtns.forEach((btn) => {\n        btn.addEventListener('click', (event) => {\n            switch (event.target.id) {\n                case 'home':\n                    console.log('home')\n                    break;\n                case 'menu':\n                    break;\n                case 'about':\n                    break;\n            }\n        })\n    })\n})()\n\n//# sourceURL=webpack://websitepage/./src/index.js?");
 
 /***/ })
 
