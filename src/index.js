@@ -1,6 +1,7 @@
 import getHomePage from "./homePage";
 import getMenuPage from "./menuPage";
 import getAboutPage from "./aboutPage";
+import './style.css'
 
 const contentBody = document.querySelector("#content");
 
