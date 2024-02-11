@@ -1,5 +1,6 @@
 import getHomePage from "./homePage";
 import getMenuPage from "./menuPage";
+import getAboutPage from "./aboutPage";
 
 const contentBody = document.querySelector('#content');
 
@@ -16,6 +17,7 @@ const navInit = (() => {
                     mainControls.loadPage(getMenuPage());
                     break;
                 case 'about':
+                    mainControls.loadPage(getAboutPage());
                     break;
             }
         });
