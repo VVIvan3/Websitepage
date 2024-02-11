@@ -40,3 +40,8 @@ class mainControls {
     });
   }
 }
+
+const setUpPage = (() => {
+  mainControls.loadPage(getHomePage());
+  mainControls.setHomeMenuNav();
+})();

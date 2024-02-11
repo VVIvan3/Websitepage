@@ -6,10 +6,10 @@ export default function getAboutPage() {
   const aboutContact = document.createElement("div");
 
   aboutPic.textContent = "placeholder";
-  aboutContact.classList.add("about-pic");
+  aboutPic.classList.add("about-pic");
 
   aboutTitle.textContent = "OVER 100 YEAR IN FOOD BUSINESS";
-  aboutContact.classList.add("about-title");
+  aboutTitle.classList.add("about-title");
 
   aboutText.textContent =
     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti velit laborum alias, possimus ducimus, atque impedit accusantium magnam adipisci explicabo minus ullam aspernatur, voluptatum eaque quae doloribus quos ab illo!";
@@ -20,5 +20,6 @@ export default function getAboutPage() {
 
   aboutHolder.append(aboutTitle, aboutPic, aboutText, aboutContact);
 
+  aboutHolder.classList.add('about-content');
   return aboutHolder;
 }
